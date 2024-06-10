@@ -8,7 +8,9 @@ const gFont = Roboto_Flex({
   display: "swap",
   variable: "--font-roboto-flex",
 });
-
+export const metadata: Metadata = {
+  title: "Doug Osborne - Chicago Software Engineer Web Designer",
+};
 export default function RootLayout({
   children,
 }: {
