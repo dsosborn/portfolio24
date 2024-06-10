@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Josefin_Sans, Roboto_Flex } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
 
 // If loading a variable font, you don't need to specify the font weight

@@ -5,6 +5,6 @@ import logo from "/public/images/doug-osborne_logo.svg";
 
 export const Header = () => (
   <header className="header">
-    <Image className="logo" src={logo} alt="" />
+    <Image priority className="logo" src={logo} alt="" />
   </header>
 );
