@@ -1,0 +1,14 @@
+.link {
+  color: white;
+  background: none;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  svg {
+    height: 1.2em;
+    width: 1.2em;
+    transform: translateY(3.5px);
+  }
+}

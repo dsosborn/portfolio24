@@ -1,0 +1,41 @@
+@import "src/styles/universal.scss";
+.row {
+  max-width: 1440px;
+  margin: -24px;
+  @include respond-above(md) {
+    display: flex;
+  }
+}
+.column {
+  flex: 1 1 50%;
+  padding: 24px;
+}
+.project:nth-child(odd) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+.project {
+  :global(p) {
+    max-width: 540px;
+  }
+}
+.link {
+  //   text-decoration: none;
+  /* font-family: "Montserrat", sans-serif; */
+  color: #1c627c;
+  font-size: 16px;
+  //   font-weight: 500;
+  margin-top: 5px;
+  transition: all 0.3s ease-out;
+  svg {
+    padding-left: 6px;
+    padding-top: 2px;
+    height: 1.2em;
+    width: 1.2em;
+    transform: translateY(2px);
+  }
+}
+.link:hover {
+  color: #06384a;
+}

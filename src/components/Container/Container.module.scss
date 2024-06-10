@@ -1,0 +1,21 @@
+@import "src/styles/universal.scss";
+
+.container {
+    display: block;
+    padding: 0 $space__sm;
+    margin: 0 auto;
+    max-width: 1150px + ($space__xl * 2);
+    width: 100%;
+    @include respond-above(md) {
+        padding: 0 $space__md;
+    }
+    @include respond-above(lg) {
+        padding: 0 $space__lg;
+    }
+    @include respond-above(xl) {
+        padding: 0 $space__xl;
+    }
+    &.small {
+        max-width: 1176px;
+    }
+}

@@ -1,0 +1,25 @@
+// $fontFamily__heading: "Open Sans", Lato, "-apple-system", BlinkMacSystemFont,
+//     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+//     "Helvetica Neue", sans-serif;
+// $fontFamily__body: "Open Sans", Lato, "-apple-system", BlinkMacSystemFont,
+//     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+//     "Helvetica Neue", sans-serif;
+// $fontFamily__serif: Playfair, sans-serif;
+
+$ease__standard: cubic-bezier(0.4, 0, 0.2, 1);
+
+///////////////////////////////
+///////// BREAKPOINTS /////////
+///////////////////////////////
+$breakpoints: (
+    xs: 376px,
+    sm: 641px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1440px,
+    xxl: 1920px,
+);
+
+$border-radius__standard: 9999px;
+
+$color__primary: #a80e1c;
