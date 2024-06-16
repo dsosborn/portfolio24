@@ -4,11 +4,11 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1;
   overflow: hidden;
 }
 
 .backgroundImage {
-  z-index: -1; /* Ensure the image is behind other content */
-  pointer-events: none; /* Prevent interaction with the image */
+  z-index: -1;
+  pointer-events: none;
 }

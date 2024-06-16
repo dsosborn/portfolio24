@@ -13,8 +13,9 @@ export default async function Home() {
       ...,
       "featuredImage": {
         "url": featuredImage.asset -> url,
-          "height": featuredImage.asset -> metadata.dimensions.height,
-          "width": featuredImage.asset -> metadata.dimensions.width,
+        "height": featuredImage.asset -> metadata.dimensions.height,
+        "width": featuredImage.asset -> metadata.dimensions.width,
+        "blur": featuredImage.asset -> metadata.lqip,
       }
 }`
   );

@@ -141,6 +141,7 @@ interface ProjectDataType {
     url: string;
     height: number;
     width: number;
+    blur: string;
   };
   body: PortableTextBlock[];
 }

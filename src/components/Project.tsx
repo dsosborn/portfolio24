@@ -21,6 +21,8 @@ const Project = ({ title, featuredImage, cta, url, body }: ProjectDataType) => {
             width={featuredImage.width}
             height={featuredImage.height}
             alt={`Visualization of ${title} website responsive sizing`}
+            placeholder="blur"
+            blurDataURL={featuredImage.blur}
           />
         </div>
         <div className={"siteDesc " + classes.column}>

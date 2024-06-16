@@ -8,9 +8,7 @@ export const BackgroundImage = () => {
       <Image
         src={imageSrc}
         alt=""
-        layout="fill"
-        objectFit="cover"
-        quality={100}
+        placeholder="blur"
         priority
         className={classes.backgroundImage}
       />
